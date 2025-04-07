@@ -12,18 +12,28 @@ const Hero = () => {
             Hi, I'm <span className="text-primary">Hossam Ahmed</span>
           </h1>
           <h2 className="text-2xl lg:text-3xl font-semibold mb-6 text-gray-700">
-            Product Engineer & Cybersecurity Enthusiast
+            Senior Software Engineer & Freelancer
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Senior Software Engineer with expertise in PHP, Laravel, Ruby on Rails, and JavaScript frameworks. 
-            Passionate about creating secure, scalable digital platforms and enhancing security practices 
-            within software development.
+            Experienced software engineer with expertise in <strong>PHP</strong>, <strong>Laravel</strong>, <strong>Ruby on Rails</strong>, 
+            <strong> React</strong>, and <strong>Angular</strong>. Based in Dubai, UAE, I specialize in developing 
+            secure, scalable digital platforms for businesses worldwide. Available for 
+            freelance projects and full-time opportunities.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link to="/contact" className="btn btn-primary">Contact Me</Link>
             <Link to="/experience" className="btn border border-primary text-primary hover:bg-primary hover:text-white">
               View Experience
             </Link>
+          </div>
+          <div className="mt-6 flex flex-wrap gap-2">
+            <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-medium">PHP</span>
+            <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-medium">Laravel</span>
+            <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-medium">Ruby on Rails</span>
+            <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-medium">React</span>
+            <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-medium">Angular</span>
+            <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-medium">Full Stack</span>
+            <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-medium">Freelancer</span>
           </div>
         </div>
 
@@ -33,7 +43,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-tr from-primary to-secondary opacity-10 rounded-full"></div>
             <img
               src={profileImage}
-              alt="Hossam Ahmed - Product Engineer"
+              alt="Hossam Ahmed - Senior Software Engineer and Freelancer based in Dubai"
               className="rounded-full border-4 border-white shadow-xl relative z-10 w-full max-w-md mx-auto"
             />
           </div>
